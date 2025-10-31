@@ -7,7 +7,7 @@ public class Square05 {
         int n = sc.nextInt();
 
         for (int iOuter = 1; iOuter <= n; iOuter++) {
-            for (int j = 1; j <= n; j++) {
+            for (int j = 0; j <= n; j++) {
                 System.out.print("*");
             }
             System.out.println();
